@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Experience</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Interactive UI with CSS & JS</h1>
+
+  <button onclick="toggleBoxAnimation()">Toggle Box Animation</button>
+  <div id="animatedBox" class="box"></div>
+
+  <button onclick="toggleModal(true)">Show Modal</button>
+  <button onclick="toggleModal(false)">Hide Modal</button>
+
+  <div id="modal" class="modal">
+    <p>This is a sliding modal!</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
